@@ -13,4 +13,4 @@ __**next_move**__: cette fonction renvoie le prochain coup à jouer en fonction 
 __**random_move**__: cette fonction choisit aléatoirement une position x et y et fait un choix aléatoire dans la liste des directions possibles à cet emplacement x et y. <br/>
 <br/>
 <br/>
-AI_Bot.py contient le code du serveur avec l'IA et subscribed.py contient le code pour l'inscription d'un joueur sur la plateforme.
+Le fichier __AI_Bot.py__ contient le code du serveur avec l'IA et __subscribed.py__ contient le code pour l'inscription d'un joueur sur la plateforme.
