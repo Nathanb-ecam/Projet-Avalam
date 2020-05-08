@@ -1,7 +1,7 @@
 # Projet-Avalam
-Nathan Buchin, 18092.
-Projet de developpement informatique, réalisation d'une intelligence artificielle pour le jeu de société Avalam.
 
+Projet de developpement informatique, réalisation d'une intelligence artificielle pour le jeu de société Avalam. <br/>
+Nathan Buchin, 18092.
 ## Fonctionnement
 Serveur web avec cherrypy qui contient deux routes: move et ping.
 Move renvoie le prochain coup à jouer déterminer par l'IA, ping pour tester les connections réseaux.
