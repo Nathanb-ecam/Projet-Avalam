@@ -3,8 +3,8 @@
 Projet de developpement informatique, réalisation d'une intelligence artificielle pour le jeu de société Avalam. <br/>
 Nathan Buchin, 18092.
 ## Fonctionnement
-Serveur web avec cherrypy qui contient deux routes: move et ping.
-Move renvoie le prochain coup à jouer déterminer par l'IA, ping pour tester les connections réseaux.
+Serveur web avec cherrypy qui contient la route move.
+Move renvoie le prochain coup à jouer déterminer par l'IA et ce coup est renvoyé au format json comprenant la position actuelle du pion et celle vers laquelle il souhaite aller se positionner. <br/>
 Au niveau de l'IA en elle-même, elle fonctionne sur base de 3 fonctions principales: next_move, possible_moves (avec apply_dircetion) et random_move.
 
 ## Stratégie de l'IA et But des fonctions 
